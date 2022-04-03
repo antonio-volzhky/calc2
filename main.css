@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'Montserrat'; 
+    src: local('Montserrat'),
+	 url(./fonts/Montserrat/woff/Montserrat-BoldItalic.woff) format('woff'); 
+     font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    background-image: url(img/sara-saeed-9.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.block{
+    max-width: 300px;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    background-color: black;
+    border-radius: 10px;
+    
+    display: flex;
+    border: 3px solid rgb(88, 87, 87);
+    justify-content: space-around;
+}
+.block__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+}
+.form__title{
+    display: block;
+    color: red;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family:'Montserrat' ;
+    width: 80%;
+    text-align: center;
+}
+@media (max-width:313px) {
+    .form__title{
+    font-size: 14px;
+}
+}
+.form__input{
+    display: block;
+    margin: 0 auto;
+    background: rgb(106, 106, 112);
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    text-align: end;
+    font-family: 'Montserrat';
+}
+.form__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.box__row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form__button{
+    display: block;
+    width: 21%;
+    height: 60px;
+    background-color: rgb(29, 170, 147);
+    border-radius: 5px;
+    font-family:'Montserrat';
+    font-size: 18px;
+}
+.form__button:active{
+    background-color: rgb(99, 218, 20);
+}
+.form__button-grey{
+    background-color: rgb(43, 226, 83);
+}
+.form__button-blue{
+    background-color: rgb(70, 73, 228); 
+}
+.form__button-red{
+    background-color: rgb(235, 1, 1);
+}
