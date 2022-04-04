@@ -69,16 +69,18 @@ body{
 .box__row{
     display: flex;
     justify-content: space-between;
+    min-height: 20%;
     
 }
 .form__button{
     display: block;
     width: 21%;
-    height: 60px;
+    height: 100%;
     background-color: rgb(29, 170, 147);
     border-radius: 5px;
     font-family:'Montserrat';
     font-size: 18px;
+    
 }
 .form__button:active{
     background-color: rgb(99, 218, 20);
