@@ -49,7 +49,7 @@ body{
     margin: 0 auto;
     background: rgb(106, 106, 112);
     width: 80%;
-    height: 50px;
+    height: 10%;
     border-radius: 5px;
     font-size: 20px;
     padding-top: 5px;
@@ -72,7 +72,7 @@ body{
     min-height: 20%;
     
 }
-.form__button{
+.form__buttonNumber{
     display: block;
     width: 21%;
     height: 100%;
@@ -82,15 +82,15 @@ body{
     font-size: 18px;
     
 }
-.form__button:active{
+.form__buttonNumber:active{
     background-color: rgb(99, 218, 20);
 }
-.form__button-grey{
+.form__buttonNumber-grey{
     background-color: rgb(43, 226, 83);
 }
-.form__button-blue{
+.form__buttonNumber-blue{
     background-color: rgb(70, 73, 228); 
 }
-.form__button-red{
+.form__buttonNumber-red{
     background-color: rgb(235, 1, 1);
 }
